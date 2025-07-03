@@ -40,7 +40,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://orc-backend-production.up.railway.app/api/v1/:path*"
+      "destination": "https://orc-backend.railway.app/api/v1/:path*"
     }
   ]
 }

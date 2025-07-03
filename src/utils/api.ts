@@ -1,7 +1,7 @@
 // API configuration for the ORC Protocol
 import axios from 'axios';
 
-export const API_BASE_URL = 'https://orc-backend-production.up.railway.app/api/v1';
+export const API_BASE_URL = 'https://orc-backend.railway.app/api/v1';
 
 // Function to create API URLs
 export const apiUrl = (path: string) => `${API_BASE_URL}${path.startsWith('/') ? path : `/${path}`}`;

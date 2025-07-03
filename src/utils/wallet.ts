@@ -329,7 +329,7 @@ export const fetchUtxosFromAPI = async (address: string): Promise<UTXO[]> => {
   try {
     // First try to get address info from local ORC API
     try {
-      const API_BASE_URL = 'https://orc-backend-production.up.railway.app/api/v1';
+      const API_BASE_URL = 'https://orc-backend.railway.app/api/v1';
       const orcResponse = await fetch(`${API_BASE_URL}/address/${address}`);
       if (orcResponse.ok) {
         const orcData = await orcResponse.json();

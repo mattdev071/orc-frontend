@@ -42,7 +42,7 @@ vercel
 Set these environment variables in your Vercel project settings:
 
 ```bash
-NEXT_PUBLIC_API_URL=https://orc-backend-production.up.railway.app/api/v1
+NEXT_PUBLIC_API_URL=https://orc-backend.railway.app/api/v1
 ```
 
 #### Setting Environment Variables in Vercel:

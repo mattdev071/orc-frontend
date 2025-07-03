@@ -9,7 +9,7 @@ const nextConfig = {
   
   // Environment variables
   env: {
-    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'https://orc-backend-production.up.railway.app/api/v1',
+    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'https://orc-backend.railway.app/api/v1',
   },
   
   // Image optimization for Vercel
